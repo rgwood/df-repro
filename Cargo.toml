@@ -1,0 +1,13 @@
+[package]
+name = "df-repro"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arrow = "34.0.0"
+datafusion = "21.1.0"
+parquet = "34.0.0"
+tokio = "1.28.0"
+tracing-subscriber = "0.3.17"
